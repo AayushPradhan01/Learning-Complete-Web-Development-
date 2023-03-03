@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDs and Classes</title>
+</head>
+<body>
+    <h1><strong><em>Look at the html file of this page to understand this</em></strong></h1>
+    
+    <!-- One ID can have only one element and vice-versa. -->
+    <!-- We can create a class with which many elements can be associated. -->
+    <!-- You can update multiple elements at once which belongs to the same class. -->
+
+
+    <!-- You can associate an element with multiple classes with a space. Like here:- -->
+    <div id="mainBox" class="redBg blackBorder">This is an example div element for IDs and Classes.</div>
+    <span class="redBg">This is a span element which shares one of the classes in the above div element</span>
+
+
+    <!-- Emmet. -->
+
+    <!-- span.redBg will give you <span class="redBg"></span> -->
+    <!-- . is shortcut for Classes. -->
+    <span class="redBg">This span element is for practising emmet shortcut for Class.</span>
+
+
+    <!-- span#mySpan will give you <span id="mySpan"></span> -->
+    <!-- # is shortcut for IDs. -->
+    <span id="mySpan">This span element is for practising emmet shortcut for ID.</span>
+
+
+    <!-- Emmet takes div as default.  -->
+    <!-- So if you write #myDiv, you'll get <div class="" id="myDiv"></div> -->
+    <!-- If you write .myDivClass, you'll get <div class="myDivClass"></div> -->
+    <!-- You can also combine it like #a.b and it will give <div id="a" class="b"></div> -->
+    <div class="myDivClass" id="myDivID">Example div element to practise the Emmet shortcut.</div>
+
+
+    <!-- Creating multiple elements using Emmet. -->
+    <!-- span.myClass1.myClass2.myClass3.myClass4 * 4 will give you the following:- -->
+    <span class="myClass1 myClass2 myClass3 myClass4">Example of</span>
+    <span class="myClass1 myClass2 myClass3 myClass4">creating four</span>
+    <span class="myClass1 myClass2 myClass3 myClass4">span elements</span>
+    <span class="myClass1 myClass2 myClass3 myClass4">at once while creating multiple classes as well.</span>
+
+    <hr>
+    <a href="/Page 2( Links and Images) for Learning HTML.html"><strong>Back to Page 2</strong></a>
+</body>
+</html>
