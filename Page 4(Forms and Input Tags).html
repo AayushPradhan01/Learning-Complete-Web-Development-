@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+<body>
+    <h1>This is HTML forms' tutorial</h1>
+    <form action="backend.js">
+
+
+    <!-- We can use <br> tag for new line but it is not a good practise and hence we'll avoid it as much as we can. We'll use CSS for that later. Use <div></div> tag instead. -->
+
+    <!-- <div></div> tag is a block element. It takes an entire block so the next element has to take the next line. -->
+    <div>
+        <!-- This name attribute is there so that we can put the corresponding value for the variable(myName here) in the backend language. -->
+        Name <input type="text" name="myName">
+    </div>
+    <br>
+    <div>
+        Role <input type="text" name="myRole">
+    </div>
+    <br>
+    <div>
+        <!-- Lable will make the word clickable to access the input box. -->
+        <label for="email">Email</label>
+        Email <input type="email" name="myEmail" id="email">
+    </div>
+    <br>
+    <div>
+        Date of Birth<input type="date" name="dob" id="">
+    </div>
+    <br>
+    <div>
+        Bonus: <input type="number" name="myBonus" id="">
+    </div>
+    <br>
+    <div>
+        <!-- If you write "checked" then the checkbox will be checked by default. -->
+        Checking the checkbox(checked by default) <input type="checkbox" name="myAgreement" id="" checked>
+    </div>
+    <br>
+    <div>
+        <!-- If the name attribute is same then only one of these will be marked. -->
+        Gender: Male <input type="radio" name="myGender" id=""> 
+        Female<input type="radio" name="myGender" id="">
+        Other <input type="radio" name="myGender" id="">
+    </div>
+    <br>
+    <div>
+        Write something about yourself <br> <textarea name="myText" id="" cols="35" rows="5"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+            <option value="ind">Indica</option>
+            <option value="swi">Swift</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="reset" value="Reset now">
+        <input type="submit" value="Submit Now!">
+    </div>
+</form>
+
+<hr>
+
+<a href="/Page 3(Tables and Lists).html"><strong>Back to Page 3</strong></a>
+</body>
+</html>
